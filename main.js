@@ -28,7 +28,7 @@ function guess(id, guess){
 };
 
 function showScores(){
-	var quizOverHtml = "<h1>Results</h1>";
+	var quizOverHtml = "<h1 id='result'>Results</h1>";
 	quizOverHtml += "<h2 id='score'> Your score: " + quiz.score + " out of " + 
 					quiz.questions.length + " </h2>" +
 					"<h3 class='retry'>Reload page to try again</h3>";

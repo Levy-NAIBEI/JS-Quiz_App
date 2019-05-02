@@ -13,14 +13,24 @@ body {
 	box-shadow: 10px 15px 5px #cbcbcb
 }
 
-.container h1 {
+.container .heading {
 	text-align: center;
 	background-color: #57636e;
-	font-size:50px;
+	font-size:20px;
 	font-family: sans-serif;
 	color: #fff;
 	padding: 2px 0;
 	border-radius: 50px;
+}
+
+ #result {
+	text-align: center;
+	background-color: #57636e;
+	font-size:44px;
+	font-family: sans-serif;
+	color: #fff;
+	padding: 2px 0;
+	border-radius: 30px;
 }
 
 #question {

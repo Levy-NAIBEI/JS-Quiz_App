@@ -10,6 +10,6 @@ Visit the hosting link: https://levy-naibei.github.io/JS-Quiz_App/
 
 * [HTML](https://www.w3schools.com/html/html_intro.asp)
 * [CSS3](https://www.w3schools.com/css/) 
-* [JS](https://www.w3schools.com/js/) 
+* [JavaScript](https://www.w3schools.com/js/) 
 
 
