@@ -1,0 +1,87 @@
+body {
+	background-color:  #f0e8c5 
+}
+
+.container {
+	background-color: #fff;
+	width: 600px;
+	height: 450px;
+	margin:30px auto;
+	padding: 10px 50px 50px 50px;
+	border-radius: 50px;
+	border:2px solid #cbcbcb;
+	box-shadow: 10px 15px 5px #cbcbcb
+}
+
+.container h1 {
+	text-align: center;
+	background-color: #57636e;
+	font-size:50px;
+	font-family: sans-serif;
+	color: #fff;
+	padding: 2px 0;
+	border-radius: 50px;
+}
+
+#question {
+	font-size: 25px;
+	color: #57636e;
+}
+
+.buttons {
+	margin-top:30px;
+}
+
+#but0, #but1, #but2, #but3 {
+	background-color: #778897;
+	color: #fff;
+	font-size: 20px;
+	border: 1px solid #1d3c6a;
+	width: 200px;
+	border-radius: 50px;
+	margin: 10px 40px 10px 0;
+	padding: 10px 10px;
+}
+
+#progress {
+	font-size:25px;
+	color: #2b2b2b;
+	text-align: center;
+}
+
+#but0:hover, #but1:hover, #but2:hover, #but3:hover {
+	background-color: #57636e;
+	cursor: pointer; 
+}
+
+#but0:focus, #but1:focus, #but2:focus, #but3:focus {
+	outline:none;
+}
+
+#score {
+	text-align: center;
+	color: #5A6772;
+	font-size: 30px;
+}
+
+.retry {
+	text-align: center;
+	color: #57636e;
+	font-size: 20px;
+	margin-top: 100px;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .container {
+    width: 100%;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 992px) {
+  .container {
+    width: 100%;
+  }
+}
