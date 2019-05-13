@@ -5,6 +5,53 @@
 body {
 	background-color:  #f0e8c5;
 	font-family:'Lucida Casaul', 'Comic Sans MS';
+<<<<<<< HEAD
+}
+
+#icon{
+	width: 40px;
+	height: 40px;
+	margin-left: 10px;
+	float: left; 
+	border-radius: 50%;
+}
+
+/* Style the header */
+.header {
+  background-color: lightblue;
+  padding: 2px;
+  position: relative;
+}
+
+/* Container for flexboxes */
+.row {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Create three unequal columns that sits next to each other */
+.column {
+  padding: 10px;
+}
+
+/* Left and right column */
+.column.side {
+   -webkit-flex: 1;
+   -ms-flex: 1;
+   flex: 1;
+}
+
+/* Middle column */
+.column.middle {
+  -webkit-flex: 2;
+  -ms-flex: 2;
+  flex: 2;
+}
+
+.imagecontainer {
+    margin: 24px 0 12px 0;
+    text-align: center;
+=======
 }
 
 #icon{
@@ -52,6 +99,18 @@ body {
     text-align: center;
 }
 
+.container {
+	background-color: #fff;
+	max-width: 100%;
+	max-height: 100%;
+	margin:30px;
+	padding: 10px 50px 50px 50px;
+	border-radius: 50px;
+	border:2px solid #cbcbcb;
+	box-shadow: 10px 15px 5px #cbcbcb;
+>>>>>>> 8f8069ec3da7f857b214449ae29099fba02edcd4
+}
+
 .container .heading {
 	text-align: center;
 	background-color: #57636e;
@@ -93,7 +152,11 @@ body {
 	color: #fff;
 	font-size: 18px;
 	border: 1px solid #1d3c6a;
+<<<<<<< HEAD
 	width: 140px;
+=======
+	max-width: 100%;
+>>>>>>> 8f8069ec3da7f857b214449ae29099fba02edcd4
 	border-radius: 50px;
 	margin: 10px 50px 10px 0;
 	padding: 2px 2px;
