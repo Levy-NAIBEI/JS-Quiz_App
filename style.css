@@ -5,7 +5,6 @@
 body {
 	background-color:  #f0e8c5;
 	font-family:'Lucida Casaul', 'Comic Sans MS';
-<<<<<<< HEAD
 }
 
 #icon{
@@ -51,7 +50,6 @@ body {
 .imagecontainer {
     margin: 24px 0 12px 0;
     text-align: center;
-=======
 }
 
 #icon{
@@ -108,7 +106,6 @@ body {
 	border-radius: 50px;
 	border:2px solid #cbcbcb;
 	box-shadow: 10px 15px 5px #cbcbcb;
->>>>>>> 8f8069ec3da7f857b214449ae29099fba02edcd4
 }
 
 .container .heading {
@@ -152,11 +149,8 @@ body {
 	color: #fff;
 	font-size: 18px;
 	border: 1px solid #1d3c6a;
-<<<<<<< HEAD
 	width: 140px;
-=======
 	max-width: 100%;
->>>>>>> 8f8069ec3da7f857b214449ae29099fba02edcd4
 	border-radius: 50px;
 	margin: 10px 50px 10px 0;
 	padding: 2px 2px;
