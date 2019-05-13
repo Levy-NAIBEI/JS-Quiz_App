@@ -31,7 +31,7 @@ function showScores(){
 	var quizOverHtml = "<h1 id='result'>Results</h1>";
 	quizOverHtml += "<h2 id='score'> Your score: " + quiz.score + " out of " + 
 					quiz.questions.length + " </h2>" +
-					"<h3 class='retry'>Reload page to try again</h3>";
+					"<h3 class='retry'>Reload page </h3>";
 	
 	var element = document.getElementById('quiz');
 	element.innerHTML = quizOverHtml;
@@ -46,13 +46,13 @@ function showProgress(){
 
 var questions = [
 	new Quiz('Which one is not a JS library?',
-		['Angular Js', 'Django', 'jQuery', 'ReactJs'], 'Django'),
+		['AngularJs', 'Django', 'jQuery', 'ReactJs'], 'Django'),
 
 	new Quiz('Which of the following is a cloud platform?',
 		['Node.js', 'Amazon', 'nginx', 'gunicorn'], 'Amazon'),
 
 	new Quiz('Which one is a python microframework?',
-		['Angular Js', 'Django', 'Flask', 'Tomcat'], 'Flask'),
+		['AngularJs', 'Django', 'Flask', 'Tomcat'], 'Flask'),
 
 	new Quiz('Which one is not a Responsive Design technique?',
 		['Media Query', 'Grid-View', 'viewport', 'box-shadow'], 'box-shadow'),

@@ -4,37 +4,60 @@
 	<title>JS simple QuizApp</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/png" sizes="16x14" href="favicon.png">
 
 	<link rel="stylesheet" type="text/css" href="style.css">
 	
 </head>
 <body>
-	<div class="container">
-		<div id="quiz">
-			<div class="heading">
-			<img src="cap.png" alt="cap" style="float: left;">
-			<h1> Quiz</h1>
-		</div>
-			<h4 id="date" ></h4>
-			<hr style="margin-bottom: 15px">
-			
-			<p id="question"></p>
-			<div class="buttons">
-				<button id="but0"><span id="choice0"> </span></button>
-				<button id="but1"><span id="choice1"> </span></button>
-				<button id="but2"><span id="choice2"> </span></button>
-				<button id="but3"><span id="choice3"> </span></button>
+	<div class="header">
+  		<h4 id="date" ></h4>
+	</div>
+
+	<div class="row">
+
+	  <div class="column side">Left column </div>
+
+		<div class="column middle">
+			<div class="imagecontainer">
+				<img id ="image" src="images/soar.jpg" alt="carousel"/>
 			</div>
 
-			<hr style="margin-top: 15px">
-			<footer>
-				<p id="progress"> </p>
-			</footer>
+			<div class="container">
+				<div id="quiz">
+					<div class="heading">
+						<img id="icon" src="cap.png" alt="icon">
+						<h1> Quiz</h1>
+					</div>
+					<hr style="margin-bottom: 15px">
+					
+					<p id="question"></p>
+					<div class="buttons">
+						<button id="but0"><span id="choice0"> </span></button>
+						<button id="but1"><span id="choice1"> </span></button>
+						<button id="but2"><span id="choice2"> </span></button>
+						<button id="but3"><span id="choice3"> </span></button>
+					</div>
+
+					<hr style="margin-top: 15px">
+
+					<footer>
+						<p id="progress"> </p>
+					</footer>
+				</div>
+			</div>
 		</div>
+
+		<div class="column side"> Right column </div>	
 	</div>
+
+	<footer class="footer">
+		<p>&copy;2019 Quiz | All Rights Reserved.</p>
+	</footer>
 
 	<script type="text/javascript" src="quiz_controller.js"></script>
 	<script type="text/javascript" src="quiz.js"></script>
 	<script type="text/javascript" src="main.js"></script>
+	<script type="text/javascript" src="home.js"></script>	
 </body>
 </html>

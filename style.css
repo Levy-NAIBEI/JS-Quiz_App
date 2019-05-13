@@ -1,26 +1,75 @@
-body {
-	background-color:  #f0e8c5 
+* {
+  box-sizing: border-box;
 }
 
-.container {
-	background-color: #fff;
-	width: 600px;
-	height: 450px;
-	margin:30px auto;
-	padding: 10px 50px 50px 50px;
-	border-radius: 50px;
-	border:2px solid #cbcbcb;
-	box-shadow: 10px 15px 5px #cbcbcb
+body {
+	background-color:  #f0e8c5;
+	font-family:'Lucida Casaul', 'Comic Sans MS';
+}
+
+#icon{
+	width: 40px;
+	height: 40px;
+	margin-left: 10px;
+	float: left; 
+	border-radius: 50%;
+}
+
+/* Style the header */
+.header {
+  background-color: lightblue;
+  padding: 2px;
+  position: relative;
+}
+
+/* Container for flexboxes */
+.row {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Create three unequal columns that sits next to each other */
+.column {
+  padding: 10px;
+}
+
+/* Left and right column */
+.column.side {
+   -webkit-flex: 1;
+   -ms-flex: 1;
+   flex: 1;
+}
+
+/* Middle column */
+.column.middle {
+  -webkit-flex: 2;
+  -ms-flex: 2;
+  flex: 2;
+}
+
+.imagecontainer {
+    margin: 24px 0 12px 0;
+    text-align: center;
 }
 
 .container .heading {
 	text-align: center;
 	background-color: #57636e;
-	font-size:20px;
 	font-family: sans-serif;
 	color: #fff;
 	padding: 2px 0;
 	border-radius: 50px;
+}
+
+.container {
+	background-color: #fff;
+	max-width: 100%;
+	max-height: auto;
+	margin:30px;
+	padding: 10px 40px 40px 40px;
+	border-radius: 50px;
+	border:2px solid #cbcbcb;
+	box-shadow: 10px 15px 5px #cbcbcb;
 }
 
  #result {
@@ -38,23 +87,20 @@ body {
 	color: #57636e;
 }
 
-.buttons {
-	margin-top:30px;
-}
 
 #but0, #but1, #but2, #but3 {
 	background-color: #778897;
 	color: #fff;
-	font-size: 20px;
+	font-size: 18px;
 	border: 1px solid #1d3c6a;
-	width: 200px;
+	width: 140px;
 	border-radius: 50px;
-	margin: 10px 40px 10px 0;
-	padding: 10px 10px;
+	margin: 10px 50px 10px 0;
+	padding: 2px 2px;
 }
 
 #progress {
-	font-size:25px;
+	font-size:20px;
 	color: #2b2b2b;
 	text-align: center;
 }
@@ -81,17 +127,17 @@ body {
 	margin-top: 100px;
 }
 
-
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-  .container {
-    width: 100%;
-  }
+/* Style the footer */
+.footer {
+  background-color: lightblue;
+  padding: 30px;
+  text-align: center;
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (max-width: 992px) {
-  .container {
-    width: 100%;
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .row {
+    -webkit-flex-direction: column;
+    flex-direction: column;
   }
 }

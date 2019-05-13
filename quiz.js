@@ -1,5 +1,3 @@
-document.getElementById('date').innerHTML = new Date().toDateString();
-
 // constructor
 function Quiz (text, choices, answer){
 	this.text=text;
