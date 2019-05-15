@@ -1,8 +1,7 @@
 document.getElementById('date').innerHTML = new Date().toDateString();
 
 var first_image = document.getElementById("image");
-var images = ["images/soar.jpg", "images/unknown.jpg", 
-				"images/unnamed.jpg", "images/penguin.jpg"];
+var images = ["images/Avator_woman.jpg", "images/Cat.jpg", "images/study.jpg"];
 var index = 0;
 
 function carousel(){
